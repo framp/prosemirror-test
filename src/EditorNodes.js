@@ -13,6 +13,7 @@ import HorizontalRuleNodeSpec from './HorizontalRuleNodeSpec';
 import ImageNodeSpec from './ImageNodeSpec';
 import ListItemNodeSpec from './ListItemNodeSpec';
 import MathNodeSpec from './MathNodeSpec';
+import GapNodeSpec from './GapNodeSpec';
 import * as NodeNames from './NodeNames';
 import OrderedListNodeSpec from './OrderedListNodeSpec';
 import ParagraphNodeSpec from './ParagraphNodeSpec';
@@ -31,6 +32,7 @@ const {
   IMAGE,
   LIST_ITEM,
   MATH,
+  GAP,
   ORDERED_LIST,
   PARAGRAPH,
   TEXT,
@@ -50,6 +52,7 @@ const nodes = {
   [TEXT]: TextNodeSpec,
   [IMAGE]: ImageNodeSpec,
   [MATH]: MathNodeSpec,
+  [GAP]: GapNodeSpec,
   [HARD_BREAK]: HardBreakNodeSpec,
   [BULLET_LIST]: BulletListNodeSpec,
   [ORDERED_LIST]: OrderedListNodeSpec,

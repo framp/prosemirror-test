@@ -51,6 +51,7 @@ const {
   INDENT_MORE,
   LINK_SET_URL,
   MATH_EDIT,
+  GAP_EDIT,
   OL,
   STRIKE,
   STRONG,
@@ -182,6 +183,7 @@ export const COMMAND_GROUPS = [
   {
     '[hr] Horizontal line': HR,
     '[functions] Math': MATH_EDIT,
+    '[space_bar] Gap': GAP_EDIT,
     '[code] Code': CODE,
     '[format_strikethrough] Strike through': STRIKE,
     '[format_quote] Block quote': BLOCKQUOTE_TOGGLE,

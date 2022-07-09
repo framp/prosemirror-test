@@ -33,7 +33,7 @@ npm install
 # At the working directory `czi-prosemirror`
 npm start
 ```
-Test http://localhost:3001/ from your browser
+Test http://localhost:7001/ from your browser
 
 ### Build the distribution files
 

@@ -17,7 +17,7 @@ import {
   registeryKeys,
   releaseEditorView,
 } from '../CZIProseMirror';
-import {BOOKMARK, IMAGE, LIST_ITEM, MATH} from '../NodeNames';
+import {BOOKMARK, IMAGE, LIST_ITEM, MATH, GAP} from '../NodeNames';
 import WebFontLoader from '../WebFontLoader';
 import createEmptyEditorState from '../createEmptyEditorState';
 import normalizeHTML from '../normalizeHTML';
@@ -27,6 +27,7 @@ import CustomNodeView from './CustomNodeView';
 import ImageNodeView from './ImageNodeView';
 import ListItemNodeView from './ListItemNodeView';
 import MathNodeView from './MathNodeView';
+import GapNodeView from './GapNodeView';
 import handleEditorDrop from './handleEditorDrop';
 import handleEditorKeyDown from './handleEditorKeyDown';
 import handleEditorPaste from './handleEditorPaste';
@@ -65,6 +66,7 @@ const AUTO_FOCUS_DELAY = 350;
 export const DEFAULT_NODE_VIEWS = Object.freeze({
   [IMAGE]: ImageNodeView,
   [MATH]: MathNodeView,
+  [GAP]: GapNodeView,
   [BOOKMARK]: BookmarkNodeView,
   [LIST_ITEM]: ListItemNodeView,
 });

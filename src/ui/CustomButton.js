@@ -12,6 +12,7 @@ class CustomButton extends React.PureComponent<any, any, any> {
   props: PointerSurfaceProps & {
     icon?: string | React.Element<any> | null,
     label?: string | React.Element<any> | null,
+    style?: any,
   };
 
   render(): React.Element<any> {

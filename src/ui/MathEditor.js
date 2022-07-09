@@ -55,6 +55,7 @@ class MathEditor extends React.PureComponent<any, any, any> {
   };
 
   _insert = (): void => {
+    console.log(this.state.value);
     this.props.close(this.state.value);
   };
 }
